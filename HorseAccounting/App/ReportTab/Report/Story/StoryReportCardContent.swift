@@ -11,7 +11,7 @@ struct StoryReportCardContent: View {
             if storyCount == 0 {
                 Text("你还没有添加一笔财记哦，快去记录你在花销时的心情吧！")
             } else {
-                Text("使用浣熊财记以来，你记录了") +
+                Text("使用小马记账以来，你记录了") +
                     Text(" \(storyCount) ").font(.system(.title, design: .rounded)) +
                     Text("条财记。")
                 Text("里面有你的生活，有你的心情。")
