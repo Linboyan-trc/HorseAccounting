@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "photo.badge.arrow.down@5x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

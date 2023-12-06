@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Expense" representedClassName="Expense" syncable="YES" codeGenerationType="class">
+        <attribute name="amount_" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="createdAt_" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="event_" optional="YES" attributeType="String"/>
+        <attribute name="originalText_" optional="YES" attributeType="String"/>
+        <attribute name="spentAt_" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt_" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="uuid_" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="focus_" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Focus" inverseName="expenses_" inverseEntity="Focus"/>
+        <relationship name="forWho_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Someone" inverseName="expenses_" inverseEntity="Someone"/>
+        <relationship name="generatedTags_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Tag" inverseName="generatedExpenses_" inverseEntity="Tag"/>
+        <relationship name="story_" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Story" inverseName="expense_" inverseEntity="Story"/>
+        <relationship name="tags_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Tag" inverseName="expenses_" inverseEntity="Tag"/>
+    </entity>
+    <entity name="Focus" representedClassName="Focus" syncable="YES" codeGenerationType="class">
+        <attribute name="name_" optional="YES" attributeType="String"/>
+        <relationship name="expenses_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Expense" inverseName="focus_" inverseEntity="Expense"/>
+    </entity>
+    <entity name="Someone" representedClassName="Someone" syncable="YES" codeGenerationType="class">
+        <attribute name="name_" optional="YES" attributeType="String"/>
+        <relationship name="expenses_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Expense" inverseName="forWho_" inverseEntity="Expense"/>
+    </entity>
+    <entity name="Story" representedClassName="Story" syncable="YES" codeGenerationType="class">
+        <attribute name="emoji_" optional="YES" attributeType="String"/>
+        <attribute name="rating_" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="text_" optional="YES" attributeType="String"/>
+        <relationship name="expense_" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Expense" inverseName="story_" inverseEntity="Expense"/>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES" codeGenerationType="class">
+        <attribute name="name_" optional="YES" attributeType="String"/>
+        <relationship name="expenses_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Expense" inverseName="tags_" inverseEntity="Expense"/>
+        <relationship name="generatedExpenses_" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Expense" inverseName="generatedTags_" inverseEntity="Expense"/>
+    </entity>
+</model>

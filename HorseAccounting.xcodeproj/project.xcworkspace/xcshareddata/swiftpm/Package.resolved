@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftdate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftDate.git",
+      "state" : {
+        "revision" : "5d943224c3bb173e6ecf27295611615eba90c80e",
+        "version" : "7.0.0"
+      }
+    },
+    {
+      "identity" : "swiftspeech",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Cay-Zhang/SwiftSpeech",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6e41f289f5ccc1751ef5674972d46b48b326c4c6"
+      }
+    },
+    {
+      "identity" : "xclog",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Yang-Xijie/XCLog",
+      "state" : {
+        "revision" : "42b9c24bfbd90cb6d4ff96339e9879a618f57d5a",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

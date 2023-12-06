@@ -7,8 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0622CA5D2B208B4700B77DF8 /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 0622CA5C2B208B4700B77DF8 /* SwiftSpeech */; };
+		0622CA602B208B5000B77DF8 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 0622CA5F2B208B5000B77DF8 /* SwiftDate */; };
+		0622CA632B208B6700B77DF8 /* XCLog in Frameworks */ = {isa = PBXBuildFile; productRef = 0622CA622B208B6700B77DF8 /* XCLog */; };
+		0622CA652B208B8500B77DF8 /* ExpenseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA642B208B8500B77DF8 /* ExpenseInfo.swift */; };
+		0622CA712B208B9700B77DF8 /* Expense+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA662B208B9600B77DF8 /* Expense+Attributes.swift */; };
+		0622CA722B208B9700B77DF8 /* Story+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA672B208B9600B77DF8 /* Story+.swift */; };
+		0622CA732B208B9700B77DF8 /* Someone+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA682B208B9600B77DF8 /* Someone+.swift */; };
+		0622CA742B208B9700B77DF8 /* Expense+Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA692B208B9600B77DF8 /* Expense+Analysis.swift */; };
+		0622CA752B208B9700B77DF8 /* Expense+CombinedDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA6A2B208B9600B77DF8 /* Expense+CombinedDataStructure.swift */; };
+		0622CA762B208B9700B77DF8 /* Focus+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA6B2B208B9600B77DF8 /* Focus+.swift */; };
+		0622CA772B208B9700B77DF8 /* Expense+FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA6C2B208B9600B77DF8 /* Expense+FetchData.swift */; };
+		0622CA782B208B9700B77DF8 /* Expense+FetchRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA6D2B208B9600B77DF8 /* Expense+FetchRequests.swift */; };
+		0622CA792B208B9700B77DF8 /* Tag+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA6E2B208B9600B77DF8 /* Tag+.swift */; };
+		0622CA7A2B208B9700B77DF8 /* RAC+Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA6F2B208B9700B77DF8 /* RAC+Expense.swift */; };
+		0622CA7B2B208B9700B77DF8 /* Expense+DataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA702B208B9700B77DF8 /* Expense+DataOperation.swift */; };
+		0622CA7D2B208B9D00B77DF8 /* TestExpenseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA7C2B208B9D00B77DF8 /* TestExpenseInfo.swift */; };
+		0622CA812B208BF900B77DF8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA7F2B208BF900B77DF8 /* MainView.swift */; };
+		0622CA822B208BF900B77DF8 /* PreviewUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA802B208BF900B77DF8 /* PreviewUse.swift */; };
+		0622CAAC2B208C0100B77DF8 /* SideMenu_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA852B208C0100B77DF8 /* SideMenu_Settings.swift */; };
+		0622CAAD2B208C0100B77DF8 /* FocusField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA862B208C0100B77DF8 /* FocusField.swift */; };
+		0622CAAE2B208C0100B77DF8 /* FocusModifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA872B208C0100B77DF8 /* FocusModifyView.swift */; };
+		0622CAAF2B208C0100B77DF8 /* SingleFocusViewForModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA882B208C0100B77DF8 /* SingleFocusViewForModify.swift */; };
+		0622CAB02B208C0100B77DF8 /* MultilineFocusViewForModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA892B208C0100B77DF8 /* MultilineFocusViewForModify.swift */; };
+		0622CAB12B208C0100B77DF8 /* MeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA8A2B208C0100B77DF8 /* MeTab.swift */; };
+		0622CAB32B208C0100B77DF8 /* IncomeExpenditureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA8E2B208C0100B77DF8 /* IncomeExpenditureView.swift */; };
+		0622CAB42B208C0100B77DF8 /* DayExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA8F2B208C0100B77DF8 /* DayExpensesView.swift */; };
+		0622CAB52B208C0100B77DF8 /* BookTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA902B208C0100B77DF8 /* BookTab.swift */; };
+		0622CAB62B208C0100B77DF8 /* MonthExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA912B208C0100B77DF8 /* MonthExpensesView.swift */; };
+		0622CAB72B208C0100B77DF8 /* ReportTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA932B208C0100B77DF8 /* ReportTab.swift */; };
+		0622CAB82B208C0100B77DF8 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA962B208C0100B77DF8 /* PieSliceView.swift */; };
+		0622CAB92B208C0100B77DF8 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA972B208C0100B77DF8 /* PieChartView.swift */; };
+		0622CABA2B208C0100B77DF8 /* FocusChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA982B208C0100B77DF8 /* FocusChartView.swift */; };
+		0622CABB2B208C0100B77DF8 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA9A2B208C0100B77DF8 /* LineChartView.swift */; };
+		0622CABC2B208C0100B77DF8 /* BriefReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA9D2B208C0100B77DF8 /* BriefReportView.swift */; };
+		0622CABD2B208C0100B77DF8 /* ReportItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA9E2B208C0100B77DF8 /* ReportItemView.swift */; };
+		0622CABE2B208C0100B77DF8 /* ExReportCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CA9F2B208C0100B77DF8 /* ExReportCardContent.swift */; };
+		0622CABF2B208C0100B77DF8 /* StoryReportCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAA12B208C0100B77DF8 /* StoryReportCardContent.swift */; };
+		0622CAC02B208C0100B77DF8 /* StoryReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAA22B208C0100B77DF8 /* StoryReportView.swift */; };
+		0622CAC12B208C0100B77DF8 /* HabitThirtyReportCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAA32B208C0100B77DF8 /* HabitThirtyReportCardContent.swift */; };
+		0622CAC22B208C0100B77DF8 /* HabitHistoryReportCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAA42B208C0100B77DF8 /* HabitHistoryReportCardContent.swift */; };
+		0622CAC32B208C0100B77DF8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAA72B208C0100B77DF8 /* RatingView.swift */; };
+		0622CAC42B208C0100B77DF8 /* StoryTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAA82B208C0100B77DF8 /* StoryTab.swift */; };
+		0622CAC52B208C0100B77DF8 /* SuccessfullyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAAA2B208C0100B77DF8 /* SuccessfullyAlert.swift */; };
+		0622CAC62B208C0100B77DF8 /* FloatingAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAAB2B208C0100B77DF8 /* FloatingAddButton.swift */; };
+		0622CB092B208C0C00B77DF8 /* VoiceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAC92B208C0C00B77DF8 /* VoiceInputView.swift */; };
+		0622CB0A2B208C0C00B77DF8 /* SwiftSpeech+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CACA2B208C0C00B77DF8 /* SwiftSpeech+.swift */; };
+		0622CB0B2B208C0C00B77DF8 /* ScreenshotImportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CACC2B208C0C00B77DF8 /* ScreenshotImportSheet.swift */; };
+		0622CB0C2B208C0C00B77DF8 /* WeChatBillInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CACD2B208C0C00B77DF8 /* WeChatBillInfo.swift */; };
+		0622CB0D2B208C0C00B77DF8 /* OriginalText2Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD02B208C0C00B77DF8 /* OriginalText2Amount.swift */; };
+		0622CB0E2B208C0C00B77DF8 /* OriginalText2LexicalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD22B208C0C00B77DF8 /* OriginalText2LexicalClass.swift */; };
+		0622CB0F2B208C0C00B77DF8 /* OriginalText2Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD32B208C0C00B77DF8 /* OriginalText2Event.swift */; };
+		0622CB102B208C0C00B77DF8 /* OriginalText2GeneratedTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD42B208C0C00B77DF8 /* OriginalText2GeneratedTags.swift */; };
+		0622CB112B208C0C00B77DF8 /* OriginalText2SpentMoneyAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD52B208C0C00B77DF8 /* OriginalText2SpentMoneyAt.swift */; };
+		0622CB122B208C0C00B77DF8 /* SingleComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD62B208C0C00B77DF8 /* SingleComponentView.swift */; };
+		0622CB132B208C0C00B77DF8 /* ExpenseInfoCommomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD82B208C0C00B77DF8 /* ExpenseInfoCommomTextField.swift */; };
+		0622CB142B208C0C00B77DF8 /* AmountField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAD92B208C0C00B77DF8 /* AmountField.swift */; };
+		0622CB152B208C0C00B77DF8 /* OriginalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CADA2B208C0C00B77DF8 /* OriginalTextField.swift */; };
+		0622CB162B208C0C00B77DF8 /* SingleFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CADC2B208C0C00B77DF8 /* SingleFocusView.swift */; };
+		0622CB172B208C0C00B77DF8 /* MultilineFociView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CADD2B208C0C00B77DF8 /* MultilineFociView.swift */; };
+		0622CB182B208C0C00B77DF8 /* FocusSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CADE2B208C0C00B77DF8 /* FocusSelectView.swift */; };
+		0622CB192B208C0C00B77DF8 /* ForWhoField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE12B208C0C00B77DF8 /* ForWhoField.swift */; };
+		0622CB1A2B208C0C00B77DF8 /* ForWhoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE22B208C0C00B77DF8 /* ForWhoInputView.swift */; };
+		0622CB1B2B208C0C00B77DF8 /* SingleSomebodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE32B208C0C00B77DF8 /* SingleSomebodyView.swift */; };
+		0622CB1C2B208C0C00B77DF8 /* NewMetaDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE42B208C0C00B77DF8 /* NewMetaDataView.swift */; };
+		0622CB1D2B208C0C00B77DF8 /* SingleExtraExpenseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE52B208C0C00B77DF8 /* SingleExtraExpenseInfoView.swift */; };
+		0622CB1E2B208C0C00B77DF8 /* StoryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE72B208C0C00B77DF8 /* StoryField.swift */; };
+		0622CB1F2B208C0C00B77DF8 /* StarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE82B208C0C00B77DF8 /* StarButtonView.swift */; };
+		0622CB202B208C0C00B77DF8 /* StoryInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAE92B208C0C00B77DF8 /* StoryInputView.swift */; };
+		0622CB212B208C0C00B77DF8 /* EmojiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAEA2B208C0C00B77DF8 /* EmojiPicker.swift */; };
+		0622CB222B208C0C00B77DF8 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAEB2B208C0C00B77DF8 /* ExpenseView.swift */; };
+		0622CB232B208C0C00B77DF8 /* TagField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAED2B208C0C00B77DF8 /* TagField.swift */; };
+		0622CB242B208C0C00B77DF8 /* TagsSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAEE2B208C0C00B77DF8 /* TagsSuggestionView.swift */; };
+		0622CB252B208C0C00B77DF8 /* MultilineTagsForDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAEF2B208C0C00B77DF8 /* MultilineTagsForDisplay.swift */; };
+		0622CB262B208C0C00B77DF8 /* SingleTagViewForModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF02B208C0C00B77DF8 /* SingleTagViewForModify.swift */; };
+		0622CB272B208C0C00B77DF8 /* MultilineTagsViewForModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF12B208C0C00B77DF8 /* MultilineTagsViewForModify.swift */; };
+		0622CB282B208C0C00B77DF8 /* TagsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF22B208C0C00B77DF8 /* TagsInputView.swift */; };
+		0622CB292B208C0C00B77DF8 /* ExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF32B208C0C00B77DF8 /* ExpenseSheet.swift */; };
+		0622CB2A2B208C0C00B77DF8 /* Array+removeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF62B208C0C00B77DF8 /* Array+removeElement.swift */; };
+		0622CB2B2B208C0C00B77DF8 /* Color+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF72B208C0C00B77DF8 /* Color+init.swift */; };
+		0622CB2C2B208C0C00B77DF8 /* Date+dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF82B208C0C00B77DF8 /* Date+dates.swift */; };
+		0622CB2D2B208C0C00B77DF8 /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAF92B208C0C00B77DF8 /* Binding+Optional.swift */; };
+		0622CB2E2B208C0C00B77DF8 /* UserDefaults+isFirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAFA2B208C0C00B77DF8 /* UserDefaults+isFirstLaunch.swift */; };
+		0622CB2F2B208C0C00B77DF8 /* String+subscipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAFB2B208C0C00B77DF8 /* String+subscipt.swift */; };
+		0622CB302B208C0C00B77DF8 /* PutKeyboardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAFD2B208C0C00B77DF8 /* PutKeyboardBack.swift */; };
+		0622CB312B208C0C00B77DF8 /* DisplayDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAFE2B208C0C00B77DF8 /* DisplayDate.swift */; };
+		0622CB322B208C0C00B77DF8 /* cropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CAFF2B208C0C00B77DF8 /* cropImage.swift */; };
+		0622CB332B208C0C00B77DF8 /* CardSeperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CB012B208C0C00B77DF8 /* CardSeperatorView.swift */; };
+		0622CB342B208C0C00B77DF8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CB022B208C0C00B77DF8 /* ImagePicker.swift */; };
+		0622CB352B208C0C00B77DF8 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CB032B208C0C00B77DF8 /* LargeButton.swift */; };
+		0622CB362B208C0C00B77DF8 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CB052B208C0C00B77DF8 /* ColorSet.swift */; };
+		0622CB372B208C0C00B77DF8 /* SheetConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CB072B208C0C00B77DF8 /* SheetConfigModel.swift */; };
+		0622CB382B208C0C00B77DF8 /* SheetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622CB082B208C0C00B77DF8 /* SheetConfig.swift */; };
+		0622CB3A2B208C2A00B77DF8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0622CB392B208C2900B77DF8 /* Launch Screen.storyboard */; };
 		06EB18CE2B20891E00B5CBE9 /* HorseAccountingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB18CD2B20891E00B5CBE9 /* HorseAccountingApp.swift */; };
-		06EB18D02B20891E00B5CBE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB18CF2B20891E00B5CBE9 /* ContentView.swift */; };
 		06EB18D22B20892000B5CBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EB18D12B20892000B5CBE9 /* Assets.xcassets */; };
 		06EB18D52B20892000B5CBE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EB18D42B20892000B5CBE9 /* Preview Assets.xcassets */; };
 		06EB18D72B20892000B5CBE9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB18D62B20892000B5CBE9 /* Persistence.swift */; };
@@ -16,9 +108,99 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0622CA642B208B8500B77DF8 /* ExpenseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseInfo.swift; sourceTree = "<group>"; };
+		0622CA662B208B9600B77DF8 /* Expense+Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+Attributes.swift"; sourceTree = "<group>"; };
+		0622CA672B208B9600B77DF8 /* Story+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Story+.swift"; sourceTree = "<group>"; };
+		0622CA682B208B9600B77DF8 /* Someone+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Someone+.swift"; sourceTree = "<group>"; };
+		0622CA692B208B9600B77DF8 /* Expense+Analysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+Analysis.swift"; sourceTree = "<group>"; };
+		0622CA6A2B208B9600B77DF8 /* Expense+CombinedDataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+CombinedDataStructure.swift"; sourceTree = "<group>"; };
+		0622CA6B2B208B9600B77DF8 /* Focus+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Focus+.swift"; sourceTree = "<group>"; };
+		0622CA6C2B208B9600B77DF8 /* Expense+FetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+FetchData.swift"; sourceTree = "<group>"; };
+		0622CA6D2B208B9600B77DF8 /* Expense+FetchRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+FetchRequests.swift"; sourceTree = "<group>"; };
+		0622CA6E2B208B9600B77DF8 /* Tag+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tag+.swift"; sourceTree = "<group>"; };
+		0622CA6F2B208B9700B77DF8 /* RAC+Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RAC+Expense.swift"; sourceTree = "<group>"; };
+		0622CA702B208B9700B77DF8 /* Expense+DataOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+DataOperation.swift"; sourceTree = "<group>"; };
+		0622CA7C2B208B9D00B77DF8 /* TestExpenseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExpenseInfo.swift; sourceTree = "<group>"; };
+		0622CA7F2B208BF900B77DF8 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0622CA802B208BF900B77DF8 /* PreviewUse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewUse.swift; sourceTree = "<group>"; };
+		0622CA852B208C0100B77DF8 /* SideMenu_Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu_Settings.swift; sourceTree = "<group>"; };
+		0622CA862B208C0100B77DF8 /* FocusField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusField.swift; sourceTree = "<group>"; };
+		0622CA872B208C0100B77DF8 /* FocusModifyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusModifyView.swift; sourceTree = "<group>"; };
+		0622CA882B208C0100B77DF8 /* SingleFocusViewForModify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFocusViewForModify.swift; sourceTree = "<group>"; };
+		0622CA892B208C0100B77DF8 /* MultilineFocusViewForModify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineFocusViewForModify.swift; sourceTree = "<group>"; };
+		0622CA8A2B208C0100B77DF8 /* MeTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTab.swift; sourceTree = "<group>"; };
+		0622CA8E2B208C0100B77DF8 /* IncomeExpenditureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeExpenditureView.swift; sourceTree = "<group>"; };
+		0622CA8F2B208C0100B77DF8 /* DayExpensesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayExpensesView.swift; sourceTree = "<group>"; };
+		0622CA902B208C0100B77DF8 /* BookTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTab.swift; sourceTree = "<group>"; };
+		0622CA912B208C0100B77DF8 /* MonthExpensesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthExpensesView.swift; sourceTree = "<group>"; };
+		0622CA932B208C0100B77DF8 /* ReportTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTab.swift; sourceTree = "<group>"; };
+		0622CA962B208C0100B77DF8 /* PieSliceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		0622CA972B208C0100B77DF8 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		0622CA982B208C0100B77DF8 /* FocusChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusChartView.swift; sourceTree = "<group>"; };
+		0622CA9A2B208C0100B77DF8 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		0622CA9D2B208C0100B77DF8 /* BriefReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BriefReportView.swift; sourceTree = "<group>"; };
+		0622CA9E2B208C0100B77DF8 /* ReportItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportItemView.swift; sourceTree = "<group>"; };
+		0622CA9F2B208C0100B77DF8 /* ExReportCardContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExReportCardContent.swift; sourceTree = "<group>"; };
+		0622CAA12B208C0100B77DF8 /* StoryReportCardContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryReportCardContent.swift; sourceTree = "<group>"; };
+		0622CAA22B208C0100B77DF8 /* StoryReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryReportView.swift; sourceTree = "<group>"; };
+		0622CAA32B208C0100B77DF8 /* HabitThirtyReportCardContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitThirtyReportCardContent.swift; sourceTree = "<group>"; };
+		0622CAA42B208C0100B77DF8 /* HabitHistoryReportCardContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitHistoryReportCardContent.swift; sourceTree = "<group>"; };
+		0622CAA72B208C0100B77DF8 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		0622CAA82B208C0100B77DF8 /* StoryTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTab.swift; sourceTree = "<group>"; };
+		0622CAAA2B208C0100B77DF8 /* SuccessfullyAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessfullyAlert.swift; sourceTree = "<group>"; };
+		0622CAAB2B208C0100B77DF8 /* FloatingAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingAddButton.swift; sourceTree = "<group>"; };
+		0622CAC92B208C0C00B77DF8 /* VoiceInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceInputView.swift; sourceTree = "<group>"; };
+		0622CACA2B208C0C00B77DF8 /* SwiftSpeech+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftSpeech+.swift"; sourceTree = "<group>"; };
+		0622CACC2B208C0C00B77DF8 /* ScreenshotImportSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotImportSheet.swift; sourceTree = "<group>"; };
+		0622CACD2B208C0C00B77DF8 /* WeChatBillInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatBillInfo.swift; sourceTree = "<group>"; };
+		0622CAD02B208C0C00B77DF8 /* OriginalText2Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalText2Amount.swift; sourceTree = "<group>"; };
+		0622CAD22B208C0C00B77DF8 /* OriginalText2LexicalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalText2LexicalClass.swift; sourceTree = "<group>"; };
+		0622CAD32B208C0C00B77DF8 /* OriginalText2Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalText2Event.swift; sourceTree = "<group>"; };
+		0622CAD42B208C0C00B77DF8 /* OriginalText2GeneratedTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalText2GeneratedTags.swift; sourceTree = "<group>"; };
+		0622CAD52B208C0C00B77DF8 /* OriginalText2SpentMoneyAt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalText2SpentMoneyAt.swift; sourceTree = "<group>"; };
+		0622CAD62B208C0C00B77DF8 /* SingleComponentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentView.swift; sourceTree = "<group>"; };
+		0622CAD82B208C0C00B77DF8 /* ExpenseInfoCommomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseInfoCommomTextField.swift; sourceTree = "<group>"; };
+		0622CAD92B208C0C00B77DF8 /* AmountField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountField.swift; sourceTree = "<group>"; };
+		0622CADA2B208C0C00B77DF8 /* OriginalTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalTextField.swift; sourceTree = "<group>"; };
+		0622CADC2B208C0C00B77DF8 /* SingleFocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFocusView.swift; sourceTree = "<group>"; };
+		0622CADD2B208C0C00B77DF8 /* MultilineFociView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineFociView.swift; sourceTree = "<group>"; };
+		0622CADE2B208C0C00B77DF8 /* FocusSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSelectView.swift; sourceTree = "<group>"; };
+		0622CAE12B208C0C00B77DF8 /* ForWhoField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForWhoField.swift; sourceTree = "<group>"; };
+		0622CAE22B208C0C00B77DF8 /* ForWhoInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForWhoInputView.swift; sourceTree = "<group>"; };
+		0622CAE32B208C0C00B77DF8 /* SingleSomebodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSomebodyView.swift; sourceTree = "<group>"; };
+		0622CAE42B208C0C00B77DF8 /* NewMetaDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMetaDataView.swift; sourceTree = "<group>"; };
+		0622CAE52B208C0C00B77DF8 /* SingleExtraExpenseInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleExtraExpenseInfoView.swift; sourceTree = "<group>"; };
+		0622CAE72B208C0C00B77DF8 /* StoryField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryField.swift; sourceTree = "<group>"; };
+		0622CAE82B208C0C00B77DF8 /* StarButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarButtonView.swift; sourceTree = "<group>"; };
+		0622CAE92B208C0C00B77DF8 /* StoryInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryInputView.swift; sourceTree = "<group>"; };
+		0622CAEA2B208C0C00B77DF8 /* EmojiPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiPicker.swift; sourceTree = "<group>"; };
+		0622CAEB2B208C0C00B77DF8 /* ExpenseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		0622CAED2B208C0C00B77DF8 /* TagField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagField.swift; sourceTree = "<group>"; };
+		0622CAEE2B208C0C00B77DF8 /* TagsSuggestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsSuggestionView.swift; sourceTree = "<group>"; };
+		0622CAEF2B208C0C00B77DF8 /* MultilineTagsForDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineTagsForDisplay.swift; sourceTree = "<group>"; };
+		0622CAF02B208C0C00B77DF8 /* SingleTagViewForModify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTagViewForModify.swift; sourceTree = "<group>"; };
+		0622CAF12B208C0C00B77DF8 /* MultilineTagsViewForModify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineTagsViewForModify.swift; sourceTree = "<group>"; };
+		0622CAF22B208C0C00B77DF8 /* TagsInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsInputView.swift; sourceTree = "<group>"; };
+		0622CAF32B208C0C00B77DF8 /* ExpenseSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseSheet.swift; sourceTree = "<group>"; };
+		0622CAF62B208C0C00B77DF8 /* Array+removeElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+removeElement.swift"; sourceTree = "<group>"; };
+		0622CAF72B208C0C00B77DF8 /* Color+init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+init.swift"; sourceTree = "<group>"; };
+		0622CAF82B208C0C00B77DF8 /* Date+dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+dates.swift"; sourceTree = "<group>"; };
+		0622CAF92B208C0C00B77DF8 /* Binding+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binding+Optional.swift"; sourceTree = "<group>"; };
+		0622CAFA2B208C0C00B77DF8 /* UserDefaults+isFirstLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+isFirstLaunch.swift"; sourceTree = "<group>"; };
+		0622CAFB2B208C0C00B77DF8 /* String+subscipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+subscipt.swift"; sourceTree = "<group>"; };
+		0622CAFD2B208C0C00B77DF8 /* PutKeyboardBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutKeyboardBack.swift; sourceTree = "<group>"; };
+		0622CAFE2B208C0C00B77DF8 /* DisplayDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDate.swift; sourceTree = "<group>"; };
+		0622CAFF2B208C0C00B77DF8 /* cropImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cropImage.swift; sourceTree = "<group>"; };
+		0622CB012B208C0C00B77DF8 /* CardSeperatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSeperatorView.swift; sourceTree = "<group>"; };
+		0622CB022B208C0C00B77DF8 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0622CB032B208C0C00B77DF8 /* LargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		0622CB052B208C0C00B77DF8 /* ColorSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		0622CB072B208C0C00B77DF8 /* SheetConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetConfigModel.swift; sourceTree = "<group>"; };
+		0622CB082B208C0C00B77DF8 /* SheetConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetConfig.swift; sourceTree = "<group>"; };
+		0622CB392B208C2900B77DF8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0622CB3B2B20905D00B77DF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EB18CA2B20891E00B5CBE9 /* HorseAccounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorseAccounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EB18CD2B20891E00B5CBE9 /* HorseAccountingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseAccountingApp.swift; sourceTree = "<group>"; };
-		06EB18CF2B20891E00B5CBE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06EB18D12B20892000B5CBE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06EB18D42B20892000B5CBE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06EB18D62B20892000B5CBE9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -30,12 +212,350 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0622CA632B208B6700B77DF8 /* XCLog in Frameworks */,
+				0622CA602B208B5000B77DF8 /* SwiftDate in Frameworks */,
+				0622CA5D2B208B4700B77DF8 /* SwiftSpeech in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0622CA7E2B208BAC00B77DF8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				06EB18CD2B20891E00B5CBE9 /* HorseAccountingApp.swift */,
+				0622CA7F2B208BF900B77DF8 /* MainView.swift */,
+				0622CA802B208BF900B77DF8 /* PreviewUse.swift */,
+				0622CAA92B208C0100B77DF8 /* TopViews */,
+				0622CA8B2B208C0100B77DF8 /* BookTab */,
+				0622CA922B208C0100B77DF8 /* ReportTab */,
+				0622CAA52B208C0100B77DF8 /* StoryTab */,
+				0622CA832B208C0100B77DF8 /* MeTab */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0622CA832B208C0100B77DF8 /* MeTab */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA842B208C0100B77DF8 /* Settings */,
+				0622CA8A2B208C0100B77DF8 /* MeTab.swift */,
+			);
+			path = MeTab;
+			sourceTree = "<group>";
+		};
+		0622CA842B208C0100B77DF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA852B208C0100B77DF8 /* SideMenu_Settings.swift */,
+				0622CA862B208C0100B77DF8 /* FocusField.swift */,
+				0622CA872B208C0100B77DF8 /* FocusModifyView.swift */,
+				0622CA882B208C0100B77DF8 /* SingleFocusViewForModify.swift */,
+				0622CA892B208C0100B77DF8 /* MultilineFocusViewForModify.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0622CA8B2B208C0100B77DF8 /* BookTab */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA902B208C0100B77DF8 /* BookTab.swift */,
+				0622CA912B208C0100B77DF8 /* MonthExpensesView.swift */,
+				0622CA8D2B208C0100B77DF8 /* Component */,
+			);
+			path = BookTab;
+			sourceTree = "<group>";
+		};
+		0622CA8D2B208C0100B77DF8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA8E2B208C0100B77DF8 /* IncomeExpenditureView.swift */,
+				0622CA8F2B208C0100B77DF8 /* DayExpensesView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0622CA922B208C0100B77DF8 /* ReportTab */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA932B208C0100B77DF8 /* ReportTab.swift */,
+				0622CA942B208C0100B77DF8 /* Focus */,
+				0622CA9B2B208C0100B77DF8 /* Report */,
+			);
+			path = ReportTab;
+			sourceTree = "<group>";
+		};
+		0622CA942B208C0100B77DF8 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA982B208C0100B77DF8 /* FocusChartView.swift */,
+				0622CA952B208C0100B77DF8 /* FocusPie */,
+				0622CA992B208C0100B77DF8 /* FocusChart */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		0622CA952B208C0100B77DF8 /* FocusPie */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA962B208C0100B77DF8 /* PieSliceView.swift */,
+				0622CA972B208C0100B77DF8 /* PieChartView.swift */,
+			);
+			path = FocusPie;
+			sourceTree = "<group>";
+		};
+		0622CA992B208C0100B77DF8 /* FocusChart */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA9A2B208C0100B77DF8 /* LineChartView.swift */,
+			);
+			path = FocusChart;
+			sourceTree = "<group>";
+		};
+		0622CA9B2B208C0100B77DF8 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA9C2B208C0100B77DF8 /* Report */,
+				0622CAA02B208C0100B77DF8 /* Story */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		0622CA9C2B208C0100B77DF8 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA9D2B208C0100B77DF8 /* BriefReportView.swift */,
+				0622CA9E2B208C0100B77DF8 /* ReportItemView.swift */,
+				0622CA9F2B208C0100B77DF8 /* ExReportCardContent.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		0622CAA02B208C0100B77DF8 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAA12B208C0100B77DF8 /* StoryReportCardContent.swift */,
+				0622CAA22B208C0100B77DF8 /* StoryReportView.swift */,
+				0622CAA32B208C0100B77DF8 /* HabitThirtyReportCardContent.swift */,
+				0622CAA42B208C0100B77DF8 /* HabitHistoryReportCardContent.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		0622CAA52B208C0100B77DF8 /* StoryTab */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAA62B208C0100B77DF8 /* Component */,
+				0622CAA82B208C0100B77DF8 /* StoryTab.swift */,
+			);
+			path = StoryTab;
+			sourceTree = "<group>";
+		};
+		0622CAA62B208C0100B77DF8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAA72B208C0100B77DF8 /* RatingView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0622CAA92B208C0100B77DF8 /* TopViews */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAAA2B208C0100B77DF8 /* SuccessfullyAlert.swift */,
+				0622CAAB2B208C0100B77DF8 /* FloatingAddButton.swift */,
+			);
+			path = TopViews;
+			sourceTree = "<group>";
+		};
+		0622CAC72B208C0C00B77DF8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAC82B208C0C00B77DF8 /* VoiceInput */,
+				0622CACB2B208C0C00B77DF8 /* ScreenshotImport */,
+				0622CACE2B208C0C00B77DF8 /* ExpenseSheet */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0622CAC82B208C0C00B77DF8 /* VoiceInput */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAC92B208C0C00B77DF8 /* VoiceInputView.swift */,
+				0622CACA2B208C0C00B77DF8 /* SwiftSpeech+.swift */,
+			);
+			path = VoiceInput;
+			sourceTree = "<group>";
+		};
+		0622CACB2B208C0C00B77DF8 /* ScreenshotImport */ = {
+			isa = PBXGroup;
+			children = (
+				0622CACC2B208C0C00B77DF8 /* ScreenshotImportSheet.swift */,
+				0622CACD2B208C0C00B77DF8 /* WeChatBillInfo.swift */,
+			);
+			path = ScreenshotImport;
+			sourceTree = "<group>";
+		};
+		0622CACE2B208C0C00B77DF8 /* ExpenseSheet */ = {
+			isa = PBXGroup;
+			children = (
+				0622CACF2B208C0C00B77DF8 /* ExtractOriginalTextFuncs */,
+				0622CAD62B208C0C00B77DF8 /* SingleComponentView.swift */,
+				0622CAD72B208C0C00B77DF8 /* TextField */,
+				0622CADB2B208C0C00B77DF8 /* Focus */,
+				0622CADF2B208C0C00B77DF8 /* ExtraMetaItem */,
+				0622CAEB2B208C0C00B77DF8 /* ExpenseView.swift */,
+				0622CAEC2B208C0C00B77DF8 /* Tag */,
+				0622CAF32B208C0C00B77DF8 /* ExpenseSheet.swift */,
+			);
+			path = ExpenseSheet;
+			sourceTree = "<group>";
+		};
+		0622CACF2B208C0C00B77DF8 /* ExtractOriginalTextFuncs */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAD02B208C0C00B77DF8 /* OriginalText2Amount.swift */,
+				0622CAD12B208C0C00B77DF8 /* NLP */,
+				0622CAD52B208C0C00B77DF8 /* OriginalText2SpentMoneyAt.swift */,
+			);
+			path = ExtractOriginalTextFuncs;
+			sourceTree = "<group>";
+		};
+		0622CAD12B208C0C00B77DF8 /* NLP */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAD22B208C0C00B77DF8 /* OriginalText2LexicalClass.swift */,
+				0622CAD32B208C0C00B77DF8 /* OriginalText2Event.swift */,
+				0622CAD42B208C0C00B77DF8 /* OriginalText2GeneratedTags.swift */,
+			);
+			path = NLP;
+			sourceTree = "<group>";
+		};
+		0622CAD72B208C0C00B77DF8 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAD82B208C0C00B77DF8 /* ExpenseInfoCommomTextField.swift */,
+				0622CAD92B208C0C00B77DF8 /* AmountField.swift */,
+				0622CADA2B208C0C00B77DF8 /* OriginalTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		0622CADB2B208C0C00B77DF8 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				0622CADC2B208C0C00B77DF8 /* SingleFocusView.swift */,
+				0622CADD2B208C0C00B77DF8 /* MultilineFociView.swift */,
+				0622CADE2B208C0C00B77DF8 /* FocusSelectView.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		0622CADF2B208C0C00B77DF8 /* ExtraMetaItem */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAE02B208C0C00B77DF8 /* ForWho */,
+				0622CAE42B208C0C00B77DF8 /* NewMetaDataView.swift */,
+				0622CAE52B208C0C00B77DF8 /* SingleExtraExpenseInfoView.swift */,
+				0622CAE62B208C0C00B77DF8 /* Story */,
+			);
+			path = ExtraMetaItem;
+			sourceTree = "<group>";
+		};
+		0622CAE02B208C0C00B77DF8 /* ForWho */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAE12B208C0C00B77DF8 /* ForWhoField.swift */,
+				0622CAE22B208C0C00B77DF8 /* ForWhoInputView.swift */,
+				0622CAE32B208C0C00B77DF8 /* SingleSomebodyView.swift */,
+			);
+			path = ForWho;
+			sourceTree = "<group>";
+		};
+		0622CAE62B208C0C00B77DF8 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAE72B208C0C00B77DF8 /* StoryField.swift */,
+				0622CAE82B208C0C00B77DF8 /* StarButtonView.swift */,
+				0622CAE92B208C0C00B77DF8 /* StoryInputView.swift */,
+				0622CAEA2B208C0C00B77DF8 /* EmojiPicker.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		0622CAEC2B208C0C00B77DF8 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAED2B208C0C00B77DF8 /* TagField.swift */,
+				0622CAEE2B208C0C00B77DF8 /* TagsSuggestionView.swift */,
+				0622CAEF2B208C0C00B77DF8 /* MultilineTagsForDisplay.swift */,
+				0622CAF02B208C0C00B77DF8 /* SingleTagViewForModify.swift */,
+				0622CAF12B208C0C00B77DF8 /* MultilineTagsViewForModify.swift */,
+				0622CAF22B208C0C00B77DF8 /* TagsInputView.swift */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		0622CAF42B208C0C00B77DF8 /* Auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAF52B208C0C00B77DF8 /* Extensions */,
+				0622CAFC2B208C0C00B77DF8 /* Functions */,
+			);
+			path = Auxiliary;
+			sourceTree = "<group>";
+		};
+		0622CAF52B208C0C00B77DF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAF62B208C0C00B77DF8 /* Array+removeElement.swift */,
+				0622CAF72B208C0C00B77DF8 /* Color+init.swift */,
+				0622CAF82B208C0C00B77DF8 /* Date+dates.swift */,
+				0622CAF92B208C0C00B77DF8 /* Binding+Optional.swift */,
+				0622CAFA2B208C0C00B77DF8 /* UserDefaults+isFirstLaunch.swift */,
+				0622CAFB2B208C0C00B77DF8 /* String+subscipt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0622CAFC2B208C0C00B77DF8 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				0622CAFD2B208C0C00B77DF8 /* PutKeyboardBack.swift */,
+				0622CAFE2B208C0C00B77DF8 /* DisplayDate.swift */,
+				0622CAFF2B208C0C00B77DF8 /* cropImage.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		0622CB002B208C0C00B77DF8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0622CB012B208C0C00B77DF8 /* CardSeperatorView.swift */,
+				0622CB022B208C0C00B77DF8 /* ImagePicker.swift */,
+				0622CB032B208C0C00B77DF8 /* LargeButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0622CB042B208C0C00B77DF8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0622CB052B208C0C00B77DF8 /* ColorSet.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		0622CB062B208C0C00B77DF8 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0622CB072B208C0C00B77DF8 /* SheetConfigModel.swift */,
+				0622CB082B208C0C00B77DF8 /* SheetConfig.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		06EB18C12B20891E00B5CBE9 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +575,16 @@
 		06EB18CC2B20891E00B5CBE9 /* HorseAccounting */ = {
 			isa = PBXGroup;
 			children = (
-				06EB18CD2B20891E00B5CBE9 /* HorseAccountingApp.swift */,
-				06EB18CF2B20891E00B5CBE9 /* ContentView.swift */,
+				06EB18E02B20894B00B5CBE9 /* CoreData */,
+				0622CA7E2B208BAC00B77DF8 /* App */,
+				0622CB062B208C0C00B77DF8 /* MVVM */,
+				0622CAC72B208C0C00B77DF8 /* Modules */,
+				0622CB042B208C0C00B77DF8 /* Configuration */,
+				0622CB002B208C0C00B77DF8 /* Components */,
+				0622CAF42B208C0C00B77DF8 /* Auxiliary */,
 				06EB18D12B20892000B5CBE9 /* Assets.xcassets */,
-				06EB18D62B20892000B5CBE9 /* Persistence.swift */,
-				06EB18D82B20892000B5CBE9 /* HorseAccounting.xcdatamodeld */,
+				0622CB392B208C2900B77DF8 /* Launch Screen.storyboard */,
+				0622CB3B2B20905D00B77DF8 /* Info.plist */,
 				06EB18D32B20892000B5CBE9 /* Preview Content */,
 			);
 			path = HorseAccounting;
@@ -71,6 +596,52 @@
 				06EB18D42B20892000B5CBE9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06EB18E02B20894B00B5CBE9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				06EB18D82B20892000B5CBE9 /* HorseAccounting.xcdatamodeld */,
+				06EB18D62B20892000B5CBE9 /* Persistence.swift */,
+				06EB18E32B20896700B5CBE9 /* DataStructure */,
+				06EB18E22B20896000B5CBE9 /* Extension */,
+				06EB18E12B20895800B5CBE9 /* TestData */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		06EB18E12B20895800B5CBE9 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA7C2B208B9D00B77DF8 /* TestExpenseInfo.swift */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		06EB18E22B20896000B5CBE9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA692B208B9600B77DF8 /* Expense+Analysis.swift */,
+				0622CA662B208B9600B77DF8 /* Expense+Attributes.swift */,
+				0622CA6A2B208B9600B77DF8 /* Expense+CombinedDataStructure.swift */,
+				0622CA702B208B9700B77DF8 /* Expense+DataOperation.swift */,
+				0622CA6C2B208B9600B77DF8 /* Expense+FetchData.swift */,
+				0622CA6D2B208B9600B77DF8 /* Expense+FetchRequests.swift */,
+				0622CA6B2B208B9600B77DF8 /* Focus+.swift */,
+				0622CA6F2B208B9700B77DF8 /* RAC+Expense.swift */,
+				0622CA682B208B9600B77DF8 /* Someone+.swift */,
+				0622CA672B208B9600B77DF8 /* Story+.swift */,
+				0622CA6E2B208B9600B77DF8 /* Tag+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		06EB18E32B20896700B5CBE9 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				0622CA642B208B8500B77DF8 /* ExpenseInfo.swift */,
+			);
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +660,11 @@
 			dependencies = (
 			);
 			name = HorseAccounting;
+			packageProductDependencies = (
+				0622CA5C2B208B4700B77DF8 /* SwiftSpeech */,
+				0622CA5F2B208B5000B77DF8 /* SwiftDate */,
+				0622CA622B208B6700B77DF8 /* XCLog */,
+			);
 			productName = HorseAccounting;
 			productReference = 06EB18CA2B20891E00B5CBE9 /* HorseAccounting.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +693,11 @@
 				Base,
 			);
 			mainGroup = 06EB18C12B20891E00B5CBE9;
+			packageReferences = (
+				0622CA5B2B208B4700B77DF8 /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
+				0622CA5E2B208B5000B77DF8 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				0622CA612B208B6700B77DF8 /* XCRemoteSwiftPackageReference "XCLog" */,
+			);
 			productRefGroup = 06EB18CB2B20891E00B5CBE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +712,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0622CB3A2B208C2A00B77DF8 /* Launch Screen.storyboard in Resources */,
 				06EB18D52B20892000B5CBE9 /* Preview Assets.xcassets in Resources */,
 				06EB18D22B20892000B5CBE9 /* Assets.xcassets in Resources */,
 			);
@@ -143,10 +725,98 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0622CB132B208C0C00B77DF8 /* ExpenseInfoCommomTextField.swift in Sources */,
+				0622CB282B208C0C00B77DF8 /* TagsInputView.swift in Sources */,
+				0622CA7D2B208B9D00B77DF8 /* TestExpenseInfo.swift in Sources */,
+				0622CB0F2B208C0C00B77DF8 /* OriginalText2Event.swift in Sources */,
+				0622CB2E2B208C0C00B77DF8 /* UserDefaults+isFirstLaunch.swift in Sources */,
+				0622CABA2B208C0100B77DF8 /* FocusChartView.swift in Sources */,
+				0622CAB32B208C0100B77DF8 /* IncomeExpenditureView.swift in Sources */,
+				0622CAC52B208C0100B77DF8 /* SuccessfullyAlert.swift in Sources */,
+				0622CABE2B208C0100B77DF8 /* ExReportCardContent.swift in Sources */,
+				0622CB262B208C0C00B77DF8 /* SingleTagViewForModify.swift in Sources */,
+				0622CB2B2B208C0C00B77DF8 /* Color+init.swift in Sources */,
+				0622CB2A2B208C0C00B77DF8 /* Array+removeElement.swift in Sources */,
 				06EB18DA2B20892000B5CBE9 /* HorseAccounting.xcdatamodeld in Sources */,
+				0622CB2C2B208C0C00B77DF8 /* Date+dates.swift in Sources */,
+				0622CB292B208C0C00B77DF8 /* ExpenseSheet.swift in Sources */,
+				0622CB162B208C0C00B77DF8 /* SingleFocusView.swift in Sources */,
+				0622CAAE2B208C0100B77DF8 /* FocusModifyView.swift in Sources */,
+				0622CA772B208B9700B77DF8 /* Expense+FetchData.swift in Sources */,
+				0622CA752B208B9700B77DF8 /* Expense+CombinedDataStructure.swift in Sources */,
+				0622CAB52B208C0100B77DF8 /* BookTab.swift in Sources */,
+				0622CB0A2B208C0C00B77DF8 /* SwiftSpeech+.swift in Sources */,
+				0622CB142B208C0C00B77DF8 /* AmountField.swift in Sources */,
+				0622CB362B208C0C00B77DF8 /* ColorSet.swift in Sources */,
+				0622CB382B208C0C00B77DF8 /* SheetConfig.swift in Sources */,
+				0622CB152B208C0C00B77DF8 /* OriginalTextField.swift in Sources */,
+				0622CAAF2B208C0100B77DF8 /* SingleFocusViewForModify.swift in Sources */,
+				0622CABD2B208C0100B77DF8 /* ReportItemView.swift in Sources */,
+				0622CABB2B208C0100B77DF8 /* LineChartView.swift in Sources */,
+				0622CB312B208C0C00B77DF8 /* DisplayDate.swift in Sources */,
+				0622CB342B208C0C00B77DF8 /* ImagePicker.swift in Sources */,
 				06EB18D72B20892000B5CBE9 /* Persistence.swift in Sources */,
-				06EB18D02B20891E00B5CBE9 /* ContentView.swift in Sources */,
+				0622CAB12B208C0100B77DF8 /* MeTab.swift in Sources */,
+				0622CB0D2B208C0C00B77DF8 /* OriginalText2Amount.swift in Sources */,
+				0622CB222B208C0C00B77DF8 /* ExpenseView.swift in Sources */,
+				0622CAB02B208C0100B77DF8 /* MultilineFocusViewForModify.swift in Sources */,
+				0622CB112B208C0C00B77DF8 /* OriginalText2SpentMoneyAt.swift in Sources */,
+				0622CB232B208C0C00B77DF8 /* TagField.swift in Sources */,
+				0622CB1F2B208C0C00B77DF8 /* StarButtonView.swift in Sources */,
+				0622CB0C2B208C0C00B77DF8 /* WeChatBillInfo.swift in Sources */,
+				0622CAC42B208C0100B77DF8 /* StoryTab.swift in Sources */,
+				0622CB122B208C0C00B77DF8 /* SingleComponentView.swift in Sources */,
+				0622CB182B208C0C00B77DF8 /* FocusSelectView.swift in Sources */,
+				0622CB202B208C0C00B77DF8 /* StoryInputView.swift in Sources */,
+				0622CA7B2B208B9700B77DF8 /* Expense+DataOperation.swift in Sources */,
+				0622CAB72B208C0100B77DF8 /* ReportTab.swift in Sources */,
+				0622CB372B208C0C00B77DF8 /* SheetConfigModel.swift in Sources */,
+				0622CB242B208C0C00B77DF8 /* TagsSuggestionView.swift in Sources */,
+				0622CAC12B208C0100B77DF8 /* HabitThirtyReportCardContent.swift in Sources */,
+				0622CA782B208B9700B77DF8 /* Expense+FetchRequests.swift in Sources */,
+				0622CB1A2B208C0C00B77DF8 /* ForWhoInputView.swift in Sources */,
+				0622CA732B208B9700B77DF8 /* Someone+.swift in Sources */,
+				0622CB0B2B208C0C00B77DF8 /* ScreenshotImportSheet.swift in Sources */,
+				0622CB272B208C0C00B77DF8 /* MultilineTagsViewForModify.swift in Sources */,
+				0622CB192B208C0C00B77DF8 /* ForWhoField.swift in Sources */,
+				0622CAB82B208C0100B77DF8 /* PieSliceView.swift in Sources */,
+				0622CB252B208C0C00B77DF8 /* MultilineTagsForDisplay.swift in Sources */,
+				0622CA762B208B9700B77DF8 /* Focus+.swift in Sources */,
+				0622CB1E2B208C0C00B77DF8 /* StoryField.swift in Sources */,
+				0622CA792B208B9700B77DF8 /* Tag+.swift in Sources */,
+				0622CB1D2B208C0C00B77DF8 /* SingleExtraExpenseInfoView.swift in Sources */,
+				0622CABF2B208C0100B77DF8 /* StoryReportCardContent.swift in Sources */,
+				0622CAB62B208C0100B77DF8 /* MonthExpensesView.swift in Sources */,
+				0622CB0E2B208C0C00B77DF8 /* OriginalText2LexicalClass.swift in Sources */,
+				0622CB322B208C0C00B77DF8 /* cropImage.swift in Sources */,
+				0622CA822B208BF900B77DF8 /* PreviewUse.swift in Sources */,
+				0622CAC32B208C0100B77DF8 /* RatingView.swift in Sources */,
+				0622CAC62B208C0100B77DF8 /* FloatingAddButton.swift in Sources */,
+				0622CA712B208B9700B77DF8 /* Expense+Attributes.swift in Sources */,
+				0622CA812B208BF900B77DF8 /* MainView.swift in Sources */,
+				0622CB302B208C0C00B77DF8 /* PutKeyboardBack.swift in Sources */,
+				0622CA722B208B9700B77DF8 /* Story+.swift in Sources */,
+				0622CAB92B208C0100B77DF8 /* PieChartView.swift in Sources */,
+				0622CB1B2B208C0C00B77DF8 /* SingleSomebodyView.swift in Sources */,
+				0622CB352B208C0C00B77DF8 /* LargeButton.swift in Sources */,
+				0622CB1C2B208C0C00B77DF8 /* NewMetaDataView.swift in Sources */,
+				0622CAC22B208C0100B77DF8 /* HabitHistoryReportCardContent.swift in Sources */,
+				0622CAC02B208C0100B77DF8 /* StoryReportView.swift in Sources */,
+				0622CAB42B208C0100B77DF8 /* DayExpensesView.swift in Sources */,
+				0622CABC2B208C0100B77DF8 /* BriefReportView.swift in Sources */,
+				0622CA7A2B208B9700B77DF8 /* RAC+Expense.swift in Sources */,
+				0622CB332B208C0C00B77DF8 /* CardSeperatorView.swift in Sources */,
+				0622CA652B208B8500B77DF8 /* ExpenseInfo.swift in Sources */,
+				0622CB212B208C0C00B77DF8 /* EmojiPicker.swift in Sources */,
+				0622CB172B208C0C00B77DF8 /* MultilineFociView.swift in Sources */,
+				0622CA742B208B9700B77DF8 /* Expense+Analysis.swift in Sources */,
+				0622CB092B208C0C00B77DF8 /* VoiceInputView.swift in Sources */,
+				0622CB2D2B208C0C00B77DF8 /* Binding+Optional.swift in Sources */,
+				0622CAAC2B208C0100B77DF8 /* SideMenu_Settings.swift in Sources */,
 				06EB18CE2B20891E00B5CBE9 /* HorseAccountingApp.swift in Sources */,
+				0622CAAD2B208C0100B77DF8 /* FocusField.swift in Sources */,
+				0622CB102B208C0C00B77DF8 /* OriginalText2GeneratedTags.swift in Sources */,
+				0622CB2F2B208C0C00B77DF8 /* String+subscipt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,26 +943,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = "Build and Versoin are set automatically.";
 				DEVELOPMENT_ASSET_PATHS = "\"HorseAccounting/Preview Content\"";
 				DEVELOPMENT_TEAM = 9P3SN39GDX;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HorseAccounting/info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HorseAccouting;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linboyan.HorseAccounting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,26 +975,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = "Build and Versoin are set automatically.";
 				DEVELOPMENT_ASSET_PATHS = "\"HorseAccounting/Preview Content\"";
 				DEVELOPMENT_TEAM = 9P3SN39GDX;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HorseAccounting/info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HorseAccouting;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linboyan.HorseAccounting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -347,6 +1023,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0622CA5B2B208B4700B77DF8 /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		0622CA5E2B208B5000B77DF8 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		0622CA612B208B6700B77DF8 /* XCRemoteSwiftPackageReference "XCLog" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yang-Xijie/XCLog";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0622CA5C2B208B4700B77DF8 /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0622CA5B2B208B4700B77DF8 /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
+		};
+		0622CA5F2B208B5000B77DF8 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0622CA5E2B208B5000B77DF8 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		0622CA622B208B6700B77DF8 /* XCLog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0622CA612B208B6700B77DF8 /* XCRemoteSwiftPackageReference "XCLog" */;
+			productName = XCLog;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		06EB18D82B20892000B5CBE9 /* HorseAccounting.xcdatamodeld */ = {
