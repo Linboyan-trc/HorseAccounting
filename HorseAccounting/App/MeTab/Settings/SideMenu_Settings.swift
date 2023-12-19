@@ -9,7 +9,7 @@ struct SideMenu_Settings: View {
                 FocusModifyView()
             }
         }
-        .navigationTitle("设置")
+        .navigationTitle("标签")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

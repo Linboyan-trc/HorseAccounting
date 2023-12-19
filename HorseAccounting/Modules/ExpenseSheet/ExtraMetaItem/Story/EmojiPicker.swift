@@ -13,7 +13,7 @@ var emojiStickers: [String] = [
 ]
 
 struct EmojiPicker: View {
-    static let width = CGFloat(50)
+    static let width = CGFloat(80)
 
     @Binding var selectedEmoji: String
 

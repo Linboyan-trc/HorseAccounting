@@ -7,7 +7,7 @@ struct StoryTab: View {
     @FetchRequest(fetchRequest: Expense.request_allExpensesWithStory)
     var expensesWithStory
 
-    static let emojiSize: CGFloat = 50
+    static let emojiSize: CGFloat = 40
 
     var body: some View {
         NavigationView {
@@ -21,11 +21,18 @@ struct StoryTab: View {
 
                                 VStack(alignment: .leading) {
                                     HStack {
+                                        let amountFormatted = String(format: "¥%.1f", expense.amount)
+                                        
                                         Text("\(DisplayDate(expense.spentAt)) \(expense.event)")
                                             .bold()
                                             .foregroundColor(defaultColorSet.cardTitle)
 
                                         Spacer()
+                                        
+                                        Text(amountFormatted)
+                                            .bold()
+                                            .foregroundColor(Color(hex:0x093C89))
+                                            .padding([.horizontal])
                                     }
                                     .padding([.top, .leading])
 
@@ -36,7 +43,6 @@ struct StoryTab: View {
 
                                     VStack(alignment: .leading) {
                                         // contentView
-                                        let amountFormatted = String(format: "¥%.1f", expense.amount)
                                         let text = expense.story?.text ?? "为本次花销添加一段财记吧"
 
                                         Text(text)
@@ -48,22 +54,18 @@ struct StoryTab: View {
                                                     RoundedRectangle(cornerRadius: 12)
                                                         .foregroundColor(defaultColorSet.emojiBackground)
                                                     Text(emoji)
-                                                        .font(.title)
+                                                        .font(.title3)
                                                 }
                                                 .frame(width: Self.emojiSize, height: Self.emojiSize, alignment: .center)
 
-                                                Spacer()
+                                                //Spacer()
                                             }
-
-                                            Text(amountFormatted)
-                                                .font(.system(.title, design: .rounded))
-                                                .foregroundColor(Color(hex:0x093C89))
-
-                                            Spacer()
 
                                             if let rating = expense.story?.rating {
                                                 RatingView(rating: Int(rating))
                                             }
+                                            
+                                            Spacer()
                                         }
                                     }
                                     .padding([.horizontal, .bottom])
@@ -74,7 +76,8 @@ struct StoryTab: View {
                                 .clipped()
                             }
                             .padding(.horizontal, 10) // 让圆角矩形边框不靠边
-                        } else {
+                        }
+                        else {
                             VStack(alignment: .center) {
                                 Text("一笔财记还没有呢")
                                 Text("给花销添加背后故事吧！").font(.system(.title2))

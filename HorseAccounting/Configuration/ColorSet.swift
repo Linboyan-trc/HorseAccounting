@@ -74,7 +74,7 @@ public struct ColorSet {
     // MARK: - Struct
 
     struct Capsule {
-        let tag = Color(hex: 0xCB844A)
+        let tag = Color(hex:0x093C89)
         let unselectedTag = Color(hex:0x80A3D9).opacity(0.6)
         let focus = Color(hex:0x245296)
         let unselectedFocus = Color(hex:0x80A3D9).opacity(0.6)

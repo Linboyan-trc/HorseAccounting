@@ -31,38 +31,31 @@ struct StoryInputView: View {
 
     var body: some View {
         HStack {
-            VStack {
-                Text("财记")
-                    .font(.system(.headline))
-                    .padding([.bottom], 1)
-
-                // 关闭财记的按钮：删除财记且设置showing为false
-                Button(action: {
-                    expenseInfo_inputting.story = nil
-                    showingStoryInputView = false
-                }, label: {
-                    Text(Image(systemName: "multiply.square"))
-                        .font(.system(.headline))
-                        .foregroundColor(.black)
-                })
-            }
-            .frame(height: StoryInputView.height)
-
             HStack {
                 VStack {
                     HStack {
+                        // 关闭财记的按钮：删除财记且设置showing为false
+                        Button(action: {
+                            expenseInfo_inputting.story = nil
+                            showingStoryInputView = false
+                        }, label: {
+                            Text(Image(systemName: "multiply.square"))
+                                .font(.system(.headline))
+                                .foregroundColor(.black)
+                        })
+                        Spacer()
                         RatingButtonView(rating: $rating)
                             .onChange(of: rating) { _ in
                                 UpdateStoryRating()
                             }
-                        Spacer() // 如果不加这个 四星和五星受到Picker影响没法点
+                        // 如果不加这个 四星和五星受到Picker影响没法点
                     }
                     StoryField(
                         story: $expenseInfo_inputting.story,
                         hint: "添加财记～"
                     )
                 }
-                .padding([.horizontal], 4)
+                .padding([.leading])
 
                 EmojiPicker(selectedEmoji: $selectedEmoji)
                     .onChange(of: selectedEmoji, perform: { _ in

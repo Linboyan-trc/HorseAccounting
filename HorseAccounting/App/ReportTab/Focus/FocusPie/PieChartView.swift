@@ -28,8 +28,21 @@ public struct PieChartView: View {
 
         for (i, value) in values.enumerated() {
             let degrees: Double = value * 360 / sum
-            tempSlices.append(PieSliceData(startAngle: Angle(degrees: endDeg), endAngle: Angle(degrees: endDeg + degrees), text: String(format: "%.0f%%", value * 100 / sum), color: colors[i]))
-            endDeg += degrees
+            if((value * 100 / sum)<4.0){
+                tempSlices.append(
+                    PieSliceData(startAngle: Angle(degrees: endDeg),
+                                 endAngle: Angle(degrees: endDeg + degrees),
+                                 text: "",
+                                 color: colors[i]))
+                endDeg += degrees
+            }else{
+                tempSlices.append(
+                    PieSliceData(startAngle: Angle(degrees: endDeg),
+                                 endAngle: Angle(degrees: endDeg + degrees),
+                                 text: String(format: "%.0f%%", value * 100 / sum),
+                                 color: colors[i]))
+                endDeg += degrees
+            }
         }
         return tempSlices
     }

@@ -17,18 +17,30 @@ struct VoiceInputView: View {
                     // 提示，当存在已识别文本时显示语音识别结果
                     Text(recognizedText == "" ? "长按添加按钮来录入" : recognizedText)
                         .font(.system(.title))
-                        .padding(.vertical, 15.0)
+                        .bold()
+                        .foregroundColor(.white)
+                        .background(Color(hex:0x093C89))
+                        .cornerRadius(6)
+                        .padding()
 
                     // 提交、关闭按钮
                     HStack {
                         Spacer()
+                            .frame(width: 80)
                         Button {
                             withAnimation { RacoonSheetConfig.shared.blurRadius = 0 } // 取消模糊
                             RacoonSheetConfig.shared.showingVoiceInputView = false // 关闭VoiceInputView
                             recognizedText = "" // 清除已识别文字
                         } label: {
-                            Text(Image(systemName: "xmark"))
-                                .font(.system(size: 50))
+                            ZStack{
+                                Rectangle()
+                                    .foregroundColor(Color(hex:0x093C89))
+                                    .frame(width: 50,height: 50)
+                                    .cornerRadius(20)
+                                Text(Image(systemName: "xmark"))
+                                    .font(.system(size: 35))
+                                    .foregroundColor(.white)
+                            }
                         }
                         Spacer()
                         // 确定语音输入没问题 提交
@@ -37,6 +49,7 @@ struct VoiceInputView: View {
                             recognizedText: $recognizedText
                         )
                         Spacer()
+                            .frame(width: 80)
                     }
                     .padding(.vertical, 15.0)
 
@@ -72,8 +85,15 @@ struct CommitSpeechButton: View {
             }
             recognizedText = ""
         }, label: {
-            Text(Image(systemName: "checkmark"))
-                .font(.system(size: 50))
+            ZStack{
+                Rectangle()
+                    .foregroundColor(Color(hex:0x093C89))
+                    .frame(width: 50,height: 50)
+                    .cornerRadius(20)
+                Text(Image(systemName: "checkmark"))
+                    .font(.system(size: 35))
+                    .foregroundColor(.white)
+            }
         })
     }
 

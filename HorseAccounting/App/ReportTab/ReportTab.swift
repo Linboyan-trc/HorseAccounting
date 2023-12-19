@@ -5,7 +5,7 @@ struct ReportTab: View {
     @Environment(\.managedObjectContext) var context
 
     // 图标 简报 二选一
-    @State private var selectedSegment: SegmentChoice = .report
+    @State private var selectedSegment: SegmentChoice = .focus
     enum SegmentChoice {
         case focus
         case report

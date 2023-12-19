@@ -21,28 +21,27 @@ struct MeTab: View {
                 }
                 .padding(.horizontal)
                 
-                // AR小人
-                ARPersonView() // 替换为显示AR小人的视图
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                
-            }
-            .listStyle(.insetGrouped)
-
-            .navigationBarTitle("", displayMode: .inline) // 隐藏导航栏标题
-            .navigationBarItems(trailing:
-                NavigationLink(destination: SideMenu_Settings()) {
-                    Image(systemName: "gearshape")
-                    .foregroundColor(.black)
-                    .font(.system(size:20))
-                    .padding(.horizontal)
+                List{
+                    NavigationLink(destination: SideMenu_Settings())
+                    {
+                        Image(systemName: "gearshape")
+                            .foregroundColor(.black)
+                            .font(.system(size:20))
+                            
+                        
+                        Text("修改标签")
+                            .foregroundColor(.black)
+                            .bold()
+                        
+                        Spacer()
+                    }
+                    
                 }
-            )
+                .padding([.horizontal])
+                .frame(maxWidth: .infinity, maxHeight:500)
+            }
+            .frame(maxWidth: .infinity, maxHeight:.infinity)
+            .background(defaultColorSet.tabBackground.ignoresSafeArea())
         }
-    }
-}
-
-struct ARPersonView: View {
-    var body: some View {
-        Text("广告位") // 替换为AR小人的内容
     }
 }

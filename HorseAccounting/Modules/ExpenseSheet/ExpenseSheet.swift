@@ -58,7 +58,10 @@ struct ExpenseSheet: View {
                                 .font(.system(.headline))
                             // TODO: 每次打开sheet直接将光标放在这里，键盘默认弹出
                             OriginalTextField(
-                                hint: "用一句话写出你的花销", isEditing: $isEditing, expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting, amount_string_inputting: $RacoonSheetConfig.shared.amount_string_inputting
+                                hint: "用一句话写出你的花销",
+                                isEditing: $isEditing,
+                                expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
+                                amount_string_inputting: $RacoonSheetConfig.shared.amount_string_inputting
                             )
                         }
 
@@ -100,48 +103,36 @@ struct ExpenseSheet: View {
                         }
                         .frame(height: ExpenseSheet.coreThreeInfoHeight)
 
-                        // 标签 Tag
-                        TagsInputView(expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting)
-
-                        // 标签添加建议 TagGenerated
-                        TagsSuggestionView(expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting)
-
                         // 关注 Focus
                         FocusSelectView(expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting)
 
                         // MARK: - Other
 
-                        // 财记 Story
-                        if RacoonSheetConfig.shared.showingStory {
-                            StoryInputView(
-                                expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
-                                showingStoryInputView: $RacoonSheetConfig.shared.showingStory
-                            )
-                        } else {
-                            EmptyView()
-                        }
-
-                        // 为谁 ForWho
-                        if RacoonSheetConfig.shared.showingForWho {
-                            ForWhoInputView(
-                                expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
-                                showingForWhoInputView: $RacoonSheetConfig.shared.showingForWho
-                            )
-                        } else {
-                            EmptyView()
-                        }
-
                         // 新添加的项
                         // 任意一个没在呈现就要出现
-                        if !RacoonSheetConfig.shared.showingStory ||
-                            !RacoonSheetConfig.shared.showingForWho
+                        if !RacoonSheetConfig.shared.showingStory
                         {
                             NewExtraExpenseInfoButtons(expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
                                                        showingStory: $RacoonSheetConfig.shared.showingStory,
                                                        showingForWho: $RacoonSheetConfig.shared.showingForWho)
+                        }else{
+                            StoryInputView(
+                                expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
+                                showingStoryInputView: $RacoonSheetConfig.shared.showingStory
+                            )
                         }
                     }
                     .padding([.vertical]) // 所有输入框离手机边框远一点
+                    
+//                    // 财记 Story
+//                    if RacoonSheetConfig.shared.showingStory {
+//                        StoryInputView(
+//                            expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
+//                            showingStoryInputView: $RacoonSheetConfig.shared.showingStory
+//                        )
+//                    } else {
+//                        EmptyView()
+//                    }
 
                     LargeButton(title: RacoonSheetConfig.shared.isEditMode ? "修改" : "记账",
                                 backgroundColor: Color(hex:0x093C89),
