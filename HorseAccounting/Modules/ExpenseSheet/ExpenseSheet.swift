@@ -123,16 +123,6 @@ struct ExpenseSheet: View {
                         }
                     }
                     .padding([.vertical]) // 所有输入框离手机边框远一点
-                    
-//                    // 财记 Story
-//                    if RacoonSheetConfig.shared.showingStory {
-//                        StoryInputView(
-//                            expenseInfo_inputting: $RacoonSheetConfig.shared.expense_inputting,
-//                            showingStoryInputView: $RacoonSheetConfig.shared.showingStory
-//                        )
-//                    } else {
-//                        EmptyView()
-//                    }
 
                     LargeButton(title: RacoonSheetConfig.shared.isEditMode ? "修改" : "记账",
                                 backgroundColor: Color(hex:0x093C89),

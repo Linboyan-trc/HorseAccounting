@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LineChartView: View {
     
+//    @Environment(\.managedObjectContext) var context
+    
     public let values: [Double]
     public let names: [String]
     public let formatter: (Double) -> String

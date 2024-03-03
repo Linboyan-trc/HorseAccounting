@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F7CA74B1-BCBE-4DC7-AB55-0EA5C506AAAA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43AADD07-27BC-405D-A8CC-92E45ED2B38B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ScreenshotImportSheet"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "43AADD07-27BC-405D-A8CC-92E45ED2B38B - fb8d18c20a055322"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of HorseAccounting.ScreenshotImportSheet.showingImagePicker : Swift.Bool"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "43AADD07-27BC-405D-A8CC-92E45ED2B38B - 6c449ed0f11d52c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.init() -&gt; HorseAccounting.ScreenshotImportSheet"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "43AADD07-27BC-405D-A8CC-92E45ED2B38B - d5d026ab77bb4e50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.init(RacoonSheetConfig: SwiftUI.EnvironmentObject&lt;HorseAccounting.SheetConfigModel&gt;, weChatBills: Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt;) -&gt; HorseAccounting.ScreenshotImportSheet"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DF30DFC-9B31-4B33-8126-B0BDD73051D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ScreenshotImportSheet"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "5DF30DFC-9B31-4B33-8126-B0BDD73051D7 - 67cfd5e18752c7ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of HorseAccounting.ScreenshotImportSheet.systemScreenshot : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5DF30DFC-9B31-4B33-8126-B0BDD73051D7 - 6c449ed0f11d52aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.init() -&gt; HorseAccounting.ScreenshotImportSheet"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ScreenshotImportSheet"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - bd882eaf5cff5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of HorseAccounting.ScreenshotImportSheet.weChatBills : Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - 521a026d17866ff4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.weChatBills.getter : Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - 9ffe04252a14d0f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.weChatBills.setter : Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - 47c387c7b214eca9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.weChatBills.modify : Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - 7bf39a9f53030a42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.weChatBills.modify : Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - 57bd77b1d21f7d7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.$weChatBills.getter : SwiftUI.Binding&lt;Swift.Array&lt;HorseAccounting.WeChatBillInfo&gt;&gt;"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "591D4A5E-D7B4-4FC9-8F03-4BAEE76A9D68 - 6c449ed0f11d520d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseAccounting.ScreenshotImportSheet.init() -&gt; HorseAccounting.ScreenshotImportSheet"
+                  moduleName = "HorseAccounting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linboyan/Desktop/SD/swift/PersonalProjects/HorseAccounting/HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52E288C9-D353-4A5A-A5E6-5A5F66181334"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "AddSelectedWeChatBills()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "087693C4-6F94-48A5-9DA7-163DFFA805F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HorseAccounting/Modules/ScreenshotImport/ScreenshotImportSheet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "textExtractFromScreenshot()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

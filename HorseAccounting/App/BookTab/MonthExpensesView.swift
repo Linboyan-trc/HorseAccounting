@@ -1,5 +1,3 @@
-// MonthExpensesView.swift
-
 import CoreData
 import SwiftDate
 import SwiftUI
@@ -53,7 +51,6 @@ struct MonthExpensesView: View {
                     ForEach(MonthExpensesView.dates.reversed(), id: \.self) {
                         DayExpensesView(date: $0)
                     }
-                    //.padding([.horizontal], 10) // 让圆角矩形边框不靠边
                 }
             }
     }

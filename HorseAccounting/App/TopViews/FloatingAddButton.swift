@@ -56,7 +56,6 @@ struct FloatingAddButton: View {
     var body: some View {
         ZStack {
             HStack {
-                // 用Spacer()将加好怼到最右边
                 Spacer()
                 VStack {
                     Spacer()
@@ -74,8 +73,7 @@ struct FloatingAddButton: View {
                 }
                 Spacer()
             }
-
-            // 悬浮在所有界面之上的语音识别界面 所以在ZStack最下方
+            // 悬浮在所有界面之上的语音识别界面，所以在ZStack最下方
             if RacoonSheetConfig.shared.showingVoiceInputView {
                 VoiceInputView(
                     recognizedText: $recognizedText)

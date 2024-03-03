@@ -78,6 +78,7 @@ struct MainView: View {
                     .tag(MainView.Tab4)
             }
             .accentColor(Color(hex:0x093C89))
+            .environment(\.managedObjectContext, context)
 
             // 成功记账提示
             if RacoonSheetConfig.shared.showingSuccessfullyAlert {

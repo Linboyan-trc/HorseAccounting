@@ -38,8 +38,8 @@ struct BookTab: View {
             .navigationTitle("支出")
         
             .navigationBarItems(
+                // 日期选择
                 leading:
-                    // ...Date() - 不能选之后的时间
                 DatePicker(
                     "",
                     selection: $selectedDate,
@@ -47,8 +47,8 @@ struct BookTab: View {
                     displayedComponents: .date
                 ),
                 
+                // 截图导入按钮
                 trailing:
-                    // 截图导入
                 Button{
                     RacoonSheetConfig.shared.showingScreenshotImportSheet.toggle()
                 } label: {
@@ -61,7 +61,7 @@ struct BookTab: View {
                 }
             )
             .sheet(
-                // 点击FloatingAddButton会弹出sheet让用户添加；语音输入结束该页面也会弹出
+                // 控制截图导入页面显示
                 isPresented: $RacoonSheetConfig.shared.showingScreenshotImportSheet,
                 onDismiss: didDismissScreenshotImportSheet
             ) {
